@@ -13,7 +13,7 @@ auth_response = auth_response.json()
 request_token = auth_response['result']['token']
 
 # we have the request token -> now let's gather the data
-terms = ['get_watchwords']
+terms = ['watchwords']
 
 # categories to be queried
 retainable_levels_of_offensiveness = ['Mildly offensive or inoffensive','Extremely offensive', 'Very offensive', 'Significantly offensive', 'Moderately offensive', 'Midly offensive']
