@@ -27,7 +27,7 @@ def process_batch(term, result):
             with open(data_dir+word['term_id']+'.json', 'w') as outfile:
                 outfile.write(json.dumps(word))
 
-def retrieveLexicon(term):
+def retrieve_lexicon(term):
     number_of_pages  = 1
     current_page = 1
     while(current_page <= number_of_pages):
