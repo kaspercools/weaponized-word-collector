@@ -39,4 +39,4 @@ def retrieve_lexicon(term):
         process_batch(term, query_result['result'])
 
 for term in terms:
-    retrieveLexicon(term)
+    retrieve_lexicon(term)
